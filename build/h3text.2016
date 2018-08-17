@@ -128,9 +128,16 @@ HOST : 10.2.0.6 : AI.MIT.EDU, MIT-AI, AI : PDP-10 : ITS : :
 HOST : 10.3.0.6 : ML.MIT.EDU, MIT-ML, ML : PDP-10 : ITS : :
 HOST : 10.3.0.54 : MC.MIT.EDU, MIT-MC, MC : PDP-10 : ITS : :
 
+<<<<<<< HEAD
 ;;; DistriBution ITS and generic KA
 HOST : %CHAOS%%IP% : %HOSTNAME%, DB, KA, KL : PDP-10 : ITS : :
 ;; Hactrn public ITS.
+=======
+;;; DistruBution ITS and generic KA
+HOST : 10.4.0.6 : DB : PDP-10 : ITS : :
+HOST : 10.5.0.6 : KA : PDP-10 : ITS : :
+
+>>>>>>> 323223c... Workarounds for LC ITS build.
 HOST : 205.166.94.7 : HACTRN.ORG, HX : PDP-10 : ITS : :
 
 ;;; Global ITS and Lispm network
@@ -162,5 +169,5 @@ HOST : CHAOS 4404 : FILECOMPUTER.AMS.Chaosnet.NET, FC.AMS.Chaosnet.NET, FS.AMS.C
 HOST : CHAOS 3037 : PUMA.NoCrew.ORG, PUMA : PDP-11 : MINITS : :
 HOST : CHAOS 3116 : PREP.NoCrew.ORG, PREP : VAX : UNIX : :
 HOST :             10.2.3.4 : TT : PDP-10 : ITS : :
-HOST : CHAOS 3130, 10.1.2.3 : LC : PDP-10 : ITS : :
+HOST : %CHAOS%%IP% : %HOSTNAME%, LC : PDP-10 : ITS : :
 

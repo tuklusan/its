@@ -154,7 +154,7 @@ proc make_ntsddt {} {
 
 proc make_salv {} {
     respond "*" ":midas dsk0:.;_kshack;nsalv\r"
-    respond "Which machine?" "KSRP06\r"
+    respond "Which machine?" "LC\r"
     expect ":KILL"
 }
 

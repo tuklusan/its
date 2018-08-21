@@ -433,10 +433,10 @@ PRINTX /Which machine? /
  IFCE MCHN,LC,[
 	;;; Very nice KS10, just one RP06 (eight later) and one TM03
 	KS10P==1
-	NDRIVE==1	;# physical units
-	NUNITS==1	;# virtual units
+	NDRIVE==8.	;# physical units
+	NUNITS==8.	;# virtual units
 	FIRSPK==0	;First pack that must be mounted in GOGO mode.
-	LASTPK==0	;Last GOGO pack (only 1 disk on the machine!)
+	LASTPK==7	;Last GOGO pack (only 1 disk on the machine!)
 	NUDSL==500.
 	RP06P==1	;RP06 on RH11 UNIBUS controller.
 	TM03P==1	;Tape on a TM03/RH11

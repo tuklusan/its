@@ -1019,7 +1019,7 @@ DEFOPT DMDSK==1		;1= Use DM DSK format
 DEFOPT QRSRVP==1	;1= Has reserved disk packs (Secondary pack)
 DEFOPT QAUTHP==1	;1= Keep track of file authors
 
-DEFOPT NQS==1		;# of disk drive units
+DEFOPT NQS==8.		;# of disk drive units
 DEFOPT NTUTBL==4	;# 1K blocks in a TUT (better agree with RP06 DEFS)
 DEFSYM NUDSL==500.	;# directories in file system (better agree with
 			; SALV and DSKDMP)

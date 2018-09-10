@@ -65,6 +65,6 @@ workflows:
   build:
     jobs:
       - build_ka10
-      - build_kl10
+      # build_kl10
       # build_klh10 # Fails almost all the time.
-      - build_simh
+      # build_simh

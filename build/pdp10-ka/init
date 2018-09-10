@@ -17,5 +17,9 @@ at dpa0 out/pdp10-ka/rp03.2
 at dpa1 out/pdp10-ka/rp03.3
 at dpa2 out/pdp10-ka/rp03.0
 at dpa3 out/pdp10-ka/rp03.1
+at dpa4 out/pdp10-ka/rp03.4
+at dpa5 out/pdp10-ka/rp03.5
+at dpa6 out/pdp10-ka/rp03.6
+at dpa7 out/pdp10-ka/rp03.7
 set dpa headers
 b mta0

@@ -21,19 +21,19 @@ set stk enabled
 set tk enabled
 at tk 10000 speed=300
 # 10001 reserved for GE bagbiters, hah.
-set dpk enabled
-at dpk 10002 speed=4800
-at dpk line=11,10019 speed=4800
-at dpk line=15,10020 speed=4800
+# 10002 Datapoint kludge
 set mty enabled
 at mty 10003 speed=50000
-at mty line=9,10018 speed=9600
-at mty line=8,10017 speed=9600
-at mty line=7,10016;notelnet speed=50000
+at mty line=10,10015;notelnet speed=50000
+at mty line=11,10019 speed=4800
+at mty line=12,10016;notelnet speed=50000
+at mty line=13,10017 speed=9600
+at mty line=14,10018 speed=9600
+at mty line=15,10020 speed=4800
 set ten11 enabled
 at ten11 10011
-set auxcpu enabled
-at auxcpu 10006
+#set auxcpu enabled
+#at auxcpu 10006
 set imp enabled
 set imp mac=e2:6c:84:1d:34:a3
 set imp ip=192.168.2.101/24

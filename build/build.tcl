@@ -75,7 +75,7 @@ proc patch_its_and_go {} {
 
 proc pdset {} {
     expect "IN OPERATION"
-    sleep 1
+    sleep 10
     type "\032"
 
     respond "Fair" ":pdset\r"

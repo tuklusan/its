@@ -22,9 +22,10 @@ respond "*" ":link sys;ts dump,sysbin;dump bin\r"
 respond "*" ":link sys;ts load,sys;ts dump\r"
 
 type ":dump\r"
-respond "_" "load links crdir sorry\r"
+respond "_" "load links crdir sorry list\r"
 respond "FILE=" "*;* *\r"
-expect -timeout 3000 "E-O-T"
+respond "DEV =" "\r"
+expect -timeout 30000 "E-O-T"
 respond "_" "quit\r"
 expect ":KILL"
 

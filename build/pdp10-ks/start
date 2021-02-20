@@ -21,7 +21,7 @@ stop() {
 }
 
 gt40() {
-    (sleep 3; tools/sim-h/BIN/pdp11 build/simh/gt40 >gt40.log 2>&1) &
+    (sleep 3; tools/sim-h/BIN/pdp11 build/pdp10-ks/gt40 >gt40.log 2>&1) &
     started GT40 "$!"
 }
 
@@ -40,10 +40,10 @@ vt52 - Start a VT52 emulator.
 
 EOF
 
-    touch out/simh/nohelp
+    touch out/pdp10-ks/nohelp
 }
 
-test -f out/simh/nohelp || help
+test -f out/pdp10-ks/nohelp || help
 
 while test -n "$1"; do
     "$1"

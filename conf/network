@@ -1,10 +1,12 @@
 # Network configuration for ITS.  Note: for now, the two-letter ITS
 # name is hardcoded to DB, which is short for DistriBution.
-HOSTNAME=DB-ITS.EXAMPLE.COM
-IP=192.168.1.100
-GW=192.168.0.45
-NETMASK=255,255,255,248
-CHAOS=no #Or octal Chaosnet address
-CHAFRIENDS=chip=3150/no.nocrew.org \
+HOSTNAME=ITS.SANYAL.ORG
+IP=10.42.2.73
+GW=10.42.2.1
+NETMASK=255,255,255,0
+CHAOS=17403
+CHAFRIENDS=chip=17401/vax1.sanyal.org \
+           chip=17402/vax2.sanyal.org \
+           chip=3150/no.nocrew.org \
            chip=3040/router.chaosnet.net \
            chip=7100/sj.gewt.net

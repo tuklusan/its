@@ -5,7 +5,8 @@ IP=10.42.2.73
 GW=10.42.2.1
 NETMASK=255,255,255,0
 CHAOS=17403
-CHAFRIENDS=chip=17401/vax1.sanyal.org \
+CHAFRIENDS=chip=3201/sanyalnet.sanyal.org \
+           chip=17401/vax1.sanyal.org \
            chip=17402/vax2.sanyal.org \
            chip=3150/no.nocrew.org \
            chip=3040/router.chaosnet.net \
